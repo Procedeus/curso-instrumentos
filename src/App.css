@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap');
+
+:root{
+  --background-color: #FFFFFF;
+  --button-text: #FFFFFF;
+  --button-color: #5AE3A7;
+  --button-alter: #68EBB4;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body, button, input{
+  font-family: 'Jost', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a, button{
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+h1{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2{
+  margin-top: 5px;
+  line-height: 100%;
+  font-size: 30px;
+  font-weight: 400;
 }
+
+.grid-10{
+  display: grid;
+  grid-template-columns: repeat(10, 100px);
+  grid-gap: 10px;
+}
+
+.grid-9{
+  display: grid;
+  grid-template-columns: repeat(9, 100px);
+  grid-gap: 10px;
+}
+
