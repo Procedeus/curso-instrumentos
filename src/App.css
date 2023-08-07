@@ -51,6 +51,13 @@ h3{
   line-height: 100%;
 }
 
+h4{
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 100%;
+}
+
 p{
   font-size: 22px;
   font-weight: 500;
