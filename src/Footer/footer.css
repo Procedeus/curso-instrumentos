@@ -1,0 +1,47 @@
+footer{
+    display: flex;
+    background-color: var(--text-color);
+    justify-content: center;
+    padding: 40px;
+}
+
+.div-footer{
+    display: flex;
+    justify-content: space-between;
+    grid-column: 1 / span 10;
+    align-items: center;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.footer-links > li > a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.form-footer{
+    display: flex;
+    gap: 10px;
+}
+.form-footer > input{
+    width: 400px;
+    background-color: var(--input);
+    color: var(--text-color-light);
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+.form-footer > button{
+    background-color: var(--button-color);
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
