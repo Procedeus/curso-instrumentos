@@ -1,7 +1,6 @@
 import './header.css';
 import img  from './assets/guitar.png';
 import { useState, useEffect } from 'react'; 
-import './Nav/nav.css';
 
 const Header = () => {
     const [isSticky, setIsSticky] = useState(false);

@@ -1,0 +1,50 @@
+#precos{
+    padding: 60px;
+    align-items: start;
+    justify-content: center;
+}
+
+.precos-row-2{
+    grid-column: 1 / span 10;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.precos-justify{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 320px;
+    justify-content: space-between;
+}
+
+.precos-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.div-button{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.button-precos{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    color: var(--text-color);
+    background-color: var(--button-alter);
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
+}

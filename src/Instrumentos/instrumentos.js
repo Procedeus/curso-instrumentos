@@ -4,10 +4,10 @@ const Instrumentos = () => {
     return (
         <section id='instrumentos'>
             <div className='grid-10'>
-            <div className='title-grid'>
+                <div className='title-grid'>
                         <h1>Desvende a Música</h1>
                         <h2>Aprenda a Tocar Diversos Instrumentos Musicais!</h2>
-                    </div>
+                </div>
                 <div className='instrumentos-row-2'>
                     <div className='instrumentos-flex'>
                         <h3>Cordas</h3>
