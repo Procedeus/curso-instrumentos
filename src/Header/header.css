@@ -88,3 +88,21 @@
     padding: 8px 30px;
     color: var(--text-color);
 }
+
+@media screen and (max-width: 1090px) {
+  .home{
+    display: block;
+    text-align: center;
+  }
+  .home-sticky{
+    display: block;
+    text-align: center;
+    margin-top: 42px;
+  }
+  .header-text{
+    margin-top: 20px;
+  }
+  .navbar{
+    margin-top: 20px;
+  }
+}

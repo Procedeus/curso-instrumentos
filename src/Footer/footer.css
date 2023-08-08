@@ -45,3 +45,10 @@ footer{
     border-radius: 5px;
     padding: 8px;
 }
+
+@media screen and (max-width: 1080px) {
+    .div-footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+}

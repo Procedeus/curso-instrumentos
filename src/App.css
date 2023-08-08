@@ -90,3 +90,11 @@ svg{
   color: var(--text-color);
 }
 
+@media screen and (max-width: 1090px) {
+  .grid-10, section{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
