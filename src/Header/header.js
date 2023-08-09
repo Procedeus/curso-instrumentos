@@ -1,9 +1,11 @@
 import './header.css';
 import img  from './assets/guitar.png';
 import { useState, useEffect } from 'react'; 
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Header = () => {
     const [isSticky, setIsSticky] = useState(false);
+    const [mobileMenu, setMobileMenu] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -15,15 +17,24 @@ const Header = () => {
         };
 
     window.addEventListener('scroll', handleScroll);
-  }, []);
+    }, []);
+
+    const isOpen = () => {
+      setMobileMenu(!mobileMenu);
+    }
     return(
       <header id='home' className={`home${isSticky ? '-sticky' : ''}`}>
-        <ul className={`navbar${isSticky ? '-sticky' : ''}`}>
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#beneficios">BENEFICIOS</a></li>
-            <li><a href="#instrumentos">INSTRUMENTOS</a></li>
-            <li><a href="#precos">PREÇOS</a></li>
-        </ul>
+        <nav className={`navbar${isSticky ? '-sticky' : ''}${mobileMenu ? '-active' : ''}`}>
+          <div  id='mobileMenu' onClick={() => { isOpen() }}>
+            <GiHamburgerMenu/>
+          </div>
+          <ul>
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#beneficios">BENEFICIOS</a></li>
+              <li><a href="#instrumentos">INSTRUMENTOS</a></li>
+              <li><a href="#precos">PREÇOS</a></li>
+          </ul>
+        </nav>
         <div className='grid-10 center-header'>
           <div className='header-text'>
             <h1>Aprenda a Tocar o Instrumento dos Seus Sonhos em Poucas Semanas!</h1>
