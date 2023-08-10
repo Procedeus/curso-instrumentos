@@ -21,7 +21,7 @@ const Instrumentos = () => {
                     </div>
                     <div className='instrumentos-flex'>
                         <h3>Teclas</h3>
-                        <p>Instrumentos de teclas têm um teclado que é pressionado para produzir o som.</p>
+                        <p>Instrumentos musical de teclas, no qual se executam melodias e notas, formando uma harmonia.</p>
                         <p>Piano, teclado, órgão e sintetizador.</p>
                     </div>
                     <div className='instrumentos-flex'>
