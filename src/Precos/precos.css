@@ -48,3 +48,9 @@
     background-color: var(--button-alter);
     box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.1);
 }
+
+@media screen and (max-width:1090px){
+    #precos{
+        padding: 60px 0px;
+    }
+}

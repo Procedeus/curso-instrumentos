@@ -5,6 +5,7 @@ height: 100vh;
 align-items: center;
 justify-content: center;
 }
+
 .home-sticky{
 display: flex;
 flex-direction: column;
@@ -106,17 +107,22 @@ width: 540px;
   .home{
     display: block;
     text-align: center;
+    height: max-content;
   }
   .home-sticky{
     display: block;
     text-align: center;
     margin-top: 42px;
+    height: max-content;
   }
   .header-text{
     margin-top: 20px;
   }
   .navbar{
     margin-top: 20px;
+  }
+  #guitar{
+    width: 90%;
   }
 }
 @media screen and (max-width: 800px){
