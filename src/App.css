@@ -15,10 +15,6 @@
   box-sizing: border-box;
 }
 
-body{
-  display: flex;
-}
-
 body, button, input{
   font-family: 'Jost', sans-serif;
 }
