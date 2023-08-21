@@ -21,7 +21,7 @@ const Precos = () => {
                             <p>Suporte por e-mail</p>
                         </div>
                         <div className='div-button'>
-                            <h3>R$99,90/mês</h3>
+                            <h2>R$99,90/mês</h2>
                             <a className='button-precos' href='/'>Assinar Agora</a>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const Precos = () => {
                             <p>Suporte por e-mail e chat ao vivo</p>
                         </div>
                         <div className='div-button'>
-                            <h3>R$149,90/mês</h3>
+                            <h2>R$149,90/mês</h2>
                             <a className='button-precos' href='/'>Assinar Agora</a>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ const Precos = () => {
                             <p>Suporte personalizado por e-mail, chat ao vivo e sessões individuais de tutoria</p>
                         </div>
                         <div className='div-button'>
-                            <h3>R$199,90/mês</h3>
+                            <h2>R$199,90/mês</h2>
                             <a className='button-precos' href='/'>Assinar Agora</a>
                         </div>
                     </div>
