@@ -19,9 +19,15 @@ footer{
 }
 
 .footer-links > li > a{
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.5;
     color: #ffffff;
+    transition-duration: 0.5s;
+}
+
+.footer-links > li > a:hover{
+    opacity: 1;
 }
 
 .form-footer{

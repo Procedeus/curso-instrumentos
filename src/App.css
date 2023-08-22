@@ -32,6 +32,7 @@ ul{
 }
 
 h1{
+  animation: title 1s;
   font-size: 50px;
   font-weight: 700;
   line-height: 100%;
@@ -39,6 +40,7 @@ h1{
 }
 
 h2{
+  animation: title 2s linear alternate;
   margin-top: 5px;
   line-height: 100%;
   font-size: 24px;
@@ -89,5 +91,15 @@ svg{
     flex-direction: column;
     width: 95%;
     margin: 0 auto;
+  }
+}
+
+@keyframes title{
+  from{
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to{
+    opacity: 1;
   }
 }
